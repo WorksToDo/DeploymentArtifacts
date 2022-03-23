@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: todo-frontend
-          image: eneskzlcn/todo-frontend-test:499251346
+          image: eneskzlcn/todo-frontend-test:499325640
           ports:
             - containerPort: 3000
           env:
