@@ -18,12 +18,9 @@ spec:
     spec:
       containers:
         - name: todo-frontend
-          image: eneskzlcn/todo-frontend:496194404
+          image: eneskzlcn/todo-frontend-prod:499185876
           ports:
             - containerPort: 3000
           env:
             - name: BACKEND_URL
-              valueFrom:
-                secretKeyRef:
-                  name: todo-frontend-secret
-                  key: backend-url
+              value: "fill"
