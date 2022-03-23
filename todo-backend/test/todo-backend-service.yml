@@ -1,0 +1,14 @@
+---
+# Source: todo-backend/templates/todo-backend-service.yml
+apiVersion: v1
+kind: Service
+metadata:
+  name: todo-backend-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: todo-backend
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 4000
