@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: todo-backend
-          image: eneskzlcn/todo-backend:501850969
+          image: eneskzlcn/todo-backend:501934927
           ports:
             - containerPort: 4000
           env:
