@@ -1,0 +1,15 @@
+---
+# Source: todo-backend/templates/postgres-service.yml
+apiVersion: v1
+kind: Service
+metadata:
+  name: postgres-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: postgres
+  ports:
+    - protocol: TCP
+      name: http
+      port: 8050
+      targetPort: 5432
