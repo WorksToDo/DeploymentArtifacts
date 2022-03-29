@@ -2,7 +2,7 @@
 <div align="right">
   <img src="https://eneskzlcn.github.io/my-published-images/todo-icon.png" width="50" height="50">
 </div>
-<h3 align="center">About Todo Frontend Project</h3>
+<h3 align="center">About Todo Deployment Artifcats Project</h3>
 <br>
 
 <hr>
